@@ -29,16 +29,15 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
+          light: "#FFFBF0",      // 粥底白：像大米粥一样的暖白色，不刺眼
+          lightgray: "#E5E0D8",  // 浅陶色：用于边框
+          gray: "#B8B8B8",       // 灰色：用于辅助文字
+          darkgray: "#4A4A4A",   // 深灰：正文颜色，比纯黑更柔和
+          dark: "#2C2520",       // 焦褐色：标题颜色，像砂锅的颜色
+          secondary: "#D97E4A",  // 赤陶红：链接颜色，醒目且温暖 (重点！)
+          tertiary: "#86A65D",   // 抹茶绿：鼠标悬停色，代表 Walk/行走
+          highlight: "rgba(217, 126, 74, 0.15)", // 高亮背景色
+        },  
         darkMode: {
           light: "#161618",
           lightgray: "#393639",
